@@ -1,0 +1,186 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 21px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.plants {
+  width: 277px;
+  height: 52px;
+  margin-top: 28px;
+  margin-left: 19px;
+}
+.container {
+  display: grid;
+
+  width: 332px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 30px;
+  margin-left: 21px;
+  margin-top: 40px;
+}
+.rectangle {
+  position: relative;
+  width: 104px;
+  height: 142px;
+}
+.card_img {
+  position: absolute;
+  width: 86px;
+  height: 110px;
+  margin-top: 16px;
+  margin-left: -95px;
+}
+.content_group {
+  text-align: center;
+}
+.card_title {
+  width: 78px;
+  height: 20px;
+}
+.card_price {
+  width: 38px;
+  height: 15px;
+}
+.group_title {
+  font-size: 12px;
+  font-family: "Avenir";
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 16px;
+}
+.group_price {
+  font-size: 8px;
+  font-family: "Avenir";
+  font-weight: lighter;
+  color: var(--text-color);
+  line-height: 11px;
+}
+
+.footer {
+  width: 286px;
+  height: 255px;
+  margin-top: 50px;
+  margin-left: 21px;
+  margin-bottom: 24px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_title {
+    margin-left: 44px;
+    margin-top: 24px;
+  }
+  .nav_selection {
+    width: 37.09px;
+    height: 20.73px;
+    margin-right: 56.91px;
+    margin-top: 24.18px;
+  }
+  #back_visit {
+    margin-left: 231px;
+    margin-top: 60px;
+  }
+  .plants {
+    width: 510px;
+    height: 96px;
+    margin-left: 228px;
+    margin-top: 25px;
+  }
+  .container {
+    width: 914px;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 16px;
+    row-gap: 84px;
+    margin-left: 231px;
+  }
+  .rectangle {
+    width: 170px;
+    height: 229px;
+  }
+  .card_img {
+    width: 138px;
+    height: 176px;
+    margin-top: 27px;
+    margin-left: -156px;
+  }
+  .group_title {
+    font-size: 17px;
+    margin-top: 14px;
+  }
+  .group_price {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer_2 {
+    width: 898px;
+    height: 175px;
+    margin-left: 234px;
+    margin-top: 114px;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,163 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.order {
+  width: 330px;
+  height: 67px;
+  margin-left: 22.5px;
+  margin-top: 43px;
+  margin-bottom: 40px;
+}
+.card {
+  margin-left: 21px;
+  margin-bottom: 5px;
+}
+.card_title {
+  width: 134px;
+  height: 21px;
+}
+.card_name {
+  width: 115px;
+  height: 21px;
+  margin-left: 83px;
+}
+.card_code {
+  width: 105px;
+  height: 21px;
+}
+.card_num {
+  width: 60px;
+  height: 21px;
+  margin-left: 167px;
+}
+.card_date {
+  width: 43px;
+  height: 21px;
+}
+.card_date_2 {
+  width: 82px;
+  height: 21px;
+  margin-left: 207px;
+}
+.card_paid {
+  width: 66px;
+  height: 21px;
+}
+.card_visa {
+  width: 33px;
+  height: 21px;
+  margin-left: 233px;
+}
+.continue {
+  width: 98px;
+  height: 15px;
+  margin-left: 12px;
+}
+#continue_visit {
+  margin-top: 40px;
+  margin-left: 21px;
+}
+.footer {
+  width: 337px;
+  height: 52px;
+  margin-top: 200px;
+  margin-left: 22px;
+  margin-bottom: 150px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+  .order {
+    width: 443px;
+    height: 126px;
+    margin-left: 323px;
+  }
+  .card {
+    margin-left: 323px;
+  }
+  .card_name {
+    margin-left: 175px;
+  }
+  .card_num {
+    margin-left: 258px;
+  }
+
+  .card_date_2 {
+    margin-left: 300px;
+  }
+  .card_visa {
+    margin-left: 325px;
+  }
+  #continue_visit {
+    margin-left: 315px;
+  }
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,232 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 21px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.checkout {
+  width: 332px;
+  height: 94px;
+  margin-left: 20px;
+  margin-top: 36px;
+}
+.title {
+  margin-top: 20px;
+  margin-left: 21px;
+  margin-bottom: 27px;
+}
+.plant {
+  width: 42px;
+  height: 22px;
+}
+.price {
+  width: 35px;
+  height: 22px;
+  margin-left: 255px;
+}
+.card {
+  display: flex;
+  margin-left: 21px;
+  margin-bottom: 14px;
+}
+.card_img {
+  width: 46.51px;
+  height: 48.96px;
+}
+.card_info {
+  width: 110px;
+  margin-left: 11px;
+}
+.car_tropical {
+  width: 107px;
+  height: 25px;
+}
+.card_size {
+  width: 38px;
+  height: 16px;
+}
+.card_price {
+  width: 40px;
+  height: 25px;
+  margin-left: 128px;
+}
+#bracken {
+  width: 110px;
+}
+#info_ivy {
+  width: 70px;
+}
+#ivy {
+  width: 67px;
+}
+#price_ivy {
+  margin-left: 170px;
+}
+#carnation {
+  width: 125px;
+}
+.total {
+  width: 43px;
+  height: 27px;
+  margin-left: 310px;
+  margin-top: 44px;
+}
+.total_price {
+  width: 89px;
+  height: 55px;
+  margin-left: 264px;
+}
+.button {
+  display: flex;
+  margin-left: 21px;
+  margin-top: 39px;
+}
+.continue {
+  width: 123px;
+  height: 16px;
+}
+.check {
+  width: 82px;
+  height: 15px;
+  margin-left: 128px;
+}
+.thank {
+  width: 305px;
+  height: 52px;
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-bottom: 36px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_title {
+    margin-left: 44px;
+    margin-top: 24px;
+  }
+  .nav_selection {
+    width: 37.09px;
+    height: 20.73px;
+    margin-right: 56.91px;
+    margin-top: 24.18px;
+  }
+  .checkout {
+    width: 443px;
+    height: 126px;
+    margin-left: 323px;
+  }
+  .plant {
+    width: 64px;
+    height: 33px;
+    margin-left: 324px;
+  }
+  .price {
+    width: 52px;
+    height: 33px;
+    margin-left: 603px;
+  }
+  .card_img {
+    width: 75.52px;
+    height: 78.37px;
+  }
+  .car_tropical {
+    width: 107px;
+    height: 25px;
+  }
+  .card_price {
+    width: 53px;
+    height: 33px;
+    margin-left: 475px;
+  }
+  #price_ivy {
+    margin-left: 517px;
+  }
+  .card {
+    margin-left: 343px;
+  }
+  .group_total {
+    width: 89px;
+    text-align: right;
+    margin-left: 975px;
+    margin-bottom: 150px;
+  }
+  .total {
+    width: 43px;
+    height: 27px;
+    margin: 0;
+  }
+  .total_price {
+    width: 89px;
+    height: 55px;
+    margin: 0;
+  }
+  .continue {
+    margin-left: 323px;
+  }
+  .check {
+    margin-left: 515px;
+  }
+  .thank {
+    display: none;
+  }
+}

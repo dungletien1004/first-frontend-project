@@ -1,0 +1,260 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.checkout {
+  width: 332px;
+  height: 94px;
+  margin-left: 20px;
+  margin-top: 36px;
+}
+.title {
+  margin-top: 21px;
+  margin-left: 21px;
+}
+.info {
+  width: 77px;
+  height: 18px;
+}
+.price {
+  width: 35px;
+  height: 18px;
+  margin-left: 220px;
+}
+:focus {
+  outline: none;
+}
+
+.col-3 {
+  float: left;
+  width: 332px;
+  margin-top: 34px;
+  margin-left: 21px;
+  position: relative;
+} /* necessary to give position: relative to parent. */
+input[type="text"] {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "Helvetica Neue";
+  color: var(--text-color);
+  opacity: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  background-color: #011501;
+}
+
+.effect-1 {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 2px solid #707070;
+}
+
+.effect-1 ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3399ff;
+  transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+}
+#input {
+  width: 104px;
+  margin-left: 10px;
+}
+
+.input_visit {
+  width: 27px;
+  height: 15px;
+}
+#city_visit {
+  position: absolute;
+  width: 35px;
+  margin-left: 82px;
+  margin-top: 300px;
+}
+
+#state_visit {
+  position: absolute;
+  width: 35px;
+  margin-left: 185px;
+  margin-top: 300px;
+}
+#ward_visit {
+  position: absolute;
+  width: 35px;
+  margin-left: 300px;
+  margin-top: 300px;
+}
+.button {
+  position: absolute;
+  margin-left: 21px;
+  margin-top: 400px;
+}
+.continue {
+  width: 123px;
+  height: 16px;
+}
+.check {
+  position: absolute;
+  width: 125px;
+  height: 21px;
+  margin-left: 90px;
+}
+.thank {
+  width: 305px;
+  height: 52px;
+  margin-top: 150px;
+  margin-left: 35px;
+  margin-bottom: 36px;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+  .group_total {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+  .checkout {
+    width: 443px;
+    height: 126px;
+    margin-left: 323px;
+    margin-top: 50px;
+  }
+  .info {
+    width: 123px;
+    height: 33px;
+  }
+  .price {
+    width: 52px;
+    height: 33px;
+    margin-left: 544px;
+  }
+  .title {
+    margin-left: 324px;
+  }
+  .input_check {
+    width: 570px;
+    margin-left: 323px;
+  }
+  .col-3 {
+    width: 536px;
+    margin-left: 0;
+  }
+  #input {
+    width: 168px;
+    margin-right: 16px;
+    margin-left: 0;
+  }
+  #city_visit {
+    margin-left: 135px;
+  }
+  #state_visit {
+    margin-left: 299px;
+  }
+  #ward_visit {
+    margin-left: 490px;
+  }
+  .group_total {
+    width: 89px;
+    text-align: right;
+    margin-left: 975px;
+    margin-top: 414px;
+  }
+  .total {
+    width: 43px;
+    height: 27px;
+    margin: 0;
+  }
+  .total_price {
+    width: 89px;
+    height: 55px;
+    margin: 0;
+  }
+  .button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .continue {
+    margin-left: 323px;
+  }
+  .check {
+    margin-left: 500px;
+  }
+  .thank {
+    display: none;
+  }
+  .br {
+    padding-bottom: 100px;
+  }
+}

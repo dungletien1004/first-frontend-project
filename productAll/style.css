@@ -1,0 +1,519 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 21px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.plant {
+  width: 228px;
+  height: 52px;
+  margin-left: 19px;
+  margin-top: 15px;
+}
+.group_icon {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 28px;
+}
+.group_card {
+  width: 37px;
+  height: 68px;
+  margin-right: 20px;
+}
+.card_icon {
+  width: 37px;
+  height: 37px;
+}
+.card_title {
+  width: 25px;
+  height: 25px;
+  margin-left: 6px;
+}
+.trending {
+  width: 288px;
+  height: 96px;
+  margin-left: 19px;
+  margin-top: 44px;
+}
+.item_card {
+  width: 190px;
+  text-align: center;
+  margin-top: 36px;
+  margin-left: 55px;
+}
+.item_img {
+  width: 189px;
+  height: 197px;
+}
+.item_title {
+  width: 128px;
+  height: 24px;
+  margin-top: 24px;
+}
+.item_price {
+  width: 62px;
+  height: 17px;
+  margin-top: 6px;
+}
+.item_list {
+  margin-top: 21px;
+  margin-left: 58px;
+}
+.group_item {
+  display: flex;
+}
+.list_img {
+  width: 45.56px;
+  height: 47.5px;
+  margin-bottom: 26.86px;
+}
+.item_more {
+  width: 34px;
+  height: 16px;
+  margin-left: 5px;
+}
+#more_visit {
+  margin-top: -3px;
+  margin-left: -25px;
+}
+.new {
+  width: 156px;
+  height: 96px;
+  margin-left: 19px;
+  margin-top: 30px;
+}
+.new_img {
+  width: 376px;
+  height: 307px;
+  position: relative;
+}
+.group_new {
+  position: absolute;
+  text-align: center;
+  width: 256px;
+  margin-top: -282px;
+  margin-left: 56px;
+}
+.group_img {
+  width: 256px;
+  height: 190px;
+}
+.group_title {
+  width: 128px;
+  height: 24px;
+}
+.group_price {
+  width: 62px;
+  height: 17px;
+}
+.card_item {
+  display: flex;
+  margin-top: -2px;
+}
+.card_item_img {
+  width: 241px;
+  height: 193px;
+  position: relative;
+}
+.card_img {
+  position: absolute;
+  width: 153px;
+  height: 152px;
+  margin-left: -196px;
+  margin-top: 21px;
+}
+.card_item_img_2 {
+  width: 134px;
+  height: 193px;
+  position: relative;
+}
+.card_img_2 {
+  position: absolute;
+  width: 87px;
+  height: 175px;
+  margin-left: -113px;
+}
+#more_visit_2 {
+  margin-left: 290px;
+  margin-top: 10px;
+}
+.group_if_you {
+  overflow: hidden;
+}
+.if_you {
+  width: 454px;
+  height: 348px;
+  margin: 0;
+  margin-top: 32px;
+}
+.if_you_img {
+  width: 506.31px;
+  height: 542.91px;
+  margin-top: -335px;
+  margin-left: 151px;
+}
+.bonsai {
+  width: 216px;
+  height: 96px;
+  margin-left: 17px;
+  margin-top: -80px;
+}
+.bonsai_img {
+  width: 304px;
+  height: 160px;
+  margin-left: 30px;
+}
+.combo {
+  width: 245px;
+  height: 98px;
+  margin-left: 19px;
+  margin-top: 62px;
+}
+.combo_card {
+  margin-left: 21px;
+}
+.combo_img {
+  width: 332px;
+  height: 179px;
+  position: relative;
+}
+.combo_group_img {
+  position: absolute;
+  width: 174px;
+  height: 143px;
+  margin-left: -291px;
+  margin-top: 17px;
+}
+.scroll_group {
+  width: 332px;
+  height: 41px;
+  margin-left: 21px;
+  margin-top: 13px;
+}
+.footer {
+  width: 286px;
+  height: 255px;
+  margin-left: 23px;
+  margin-top: 91px;
+  margin-bottom: 36px;
+}
+@media screen and (max-width: 400px) {
+  #item_hidden {
+    display: none;
+  }
+  .card_img_3 {
+    display: none;
+  }
+  .if_you_2 {
+    display: none;
+  }
+  .scroll_hidden {
+    display: none;
+  }
+  .combo_group_img_2 {
+    display: none;
+  }
+  .combo_hidden {
+    display: none;
+  }
+  #hidden {
+    display: none;
+  }
+  .footer_2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav_title {
+    margin-left: 44px;
+    margin-top: 24px;
+  }
+  .nav_selection {
+    width: 37.09px;
+    height: 20.73px;
+    margin-right: 56.91px;
+    margin-top: 24.18px;
+  }
+  .plant {
+    width: 530px;
+    height: 96px;
+    margin-left: 418px;
+  }
+  .group_icon {
+    margin-left: 186px;
+    margin-top: 40px;
+  }
+  .group_card {
+    width: 75px;
+    height: 100px;
+    margin-right: 110px;
+  }
+  .card_icon {
+    width: 75px;
+    height: 75px;
+  }
+  .card_title {
+    width: 50px;
+    height: 50px;
+  }
+  .trending {
+    width: 378px;
+    height: 126px;
+    margin-left: 232.52px;
+    margin-top: 368px;
+  }
+  .item_card {
+    width: 350px;
+    margin-left: 0;
+  }
+  .item_img {
+    width: 346.68px;
+    height: 361.47px;
+  }
+  .item_title {
+    width: 216px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .item_price {
+    width: 106px;
+    height: 28px;
+    margin-left: 10px;
+  }
+  #list_hiden {
+    display: none;
+  }
+  .group_item {
+    margin-left: 235px;
+  }
+  #item_hidden {
+    margin-left: 109px;
+  }
+  #more_visit {
+    margin-top: 520px;
+  }
+  .new {
+    width: 204px;
+    height: 126px;
+    margin-left: 232.52px;
+    margin-top: 108px;
+  }
+  .new_card {
+    width: 552px;
+    height: 449.82px;
+    margin-left: 231px;
+  }
+  .new_img {
+    width: 552px;
+    height: 449.82px;
+  }
+  .group_new {
+    width: 374.14px;
+    margin-top: -415px;
+  }
+  .group_img {
+    width: 374.14px;
+    height: 278.39px;
+  }
+  .group_title {
+    width: 184px;
+    height: 34px;
+    margin-top: 42px;
+  }
+  .group_price {
+    display: none;
+  }
+  .card_item {
+    width: 352px;
+    display: block;
+    margin-left: 782px;
+    margin-top: -450px;
+  }
+  .card_item_img {
+    width: 352px;
+    height: 282.78px;
+  }
+  .card_img {
+    width: 223.47px;
+    height: 222.71px;
+    margin-left: -280px;
+    margin-top: 30px;
+  }
+  .card_item_2 {
+    overflow: hidden;
+    margin-top: -4px;
+  }
+  .card_item_img_2 {
+    width: 352px;
+    height: 167.03px;
+  }
+  .card_img_2 {
+    display: none;
+  }
+  .card_img_3 {
+    position: absolute;
+    width: 123.37px;
+    height: 170px;
+    margin-left: -250px;
+    margin-top: 0;
+  }
+  #more_visit_2 {
+    margin-left: 1059px;
+    margin-top: 33px;
+  }
+  .if_you {
+    display: none;
+  }
+  .if_you_2 {
+    width: 1086px;
+    height: 348px;
+    margin-left: 141px;
+    margin-top: 204px;
+  }
+  .if_you_img {
+    width: 714px;
+    height: 742.25px;
+    margin-left: 624px;
+    margin-top: -430px;
+  }
+  .bonsai {
+    display: block;
+    width: 284px;
+    height: 126px;
+    margin-left: 226.52px;
+  }
+  .bonsai_img {
+    display: none;
+  }
+  .scroll_hidden {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 32px;
+  }
+  .scroll_card {
+    width: 144.14px;
+    text-align: center;
+    margin-right: 59.13px;
+  }
+  .scroll_img {
+    width: 144.14px;
+    height: 184.48px;
+  }
+  .scroll_title {
+    width: 122px;
+    height: 23px;
+  }
+  .scroll_price {
+    width: 52px;
+    height: 15px;
+  }
+  .combo {
+    width: 313px;
+    height: 126px;
+    margin-top: 134px;
+    margin-left: 232.52px;
+  }
+  .combo_group_img {
+    display: none;
+  }
+  .combo_card {
+    margin-left: 234.52px;
+  }
+  .combo_img {
+    width: 900.48px;
+    height: 386.29px;
+  }
+  .combo_group_img_2 {
+    position: absolute;
+    width: 375.5px;
+    height: 308.08px;
+    margin-left: -800px;
+    margin-top: 36px;
+  }
+  .combo_hidden {
+    position: absolute;
+    margin-top: -320px;
+    width: 226px;
+    text-align: right;
+    margin-left: 582.48px;
+  }
+  .hidden_title {
+    width: 226px;
+    height: 44px;
+  }
+  .hidden_price {
+    width: 72px;
+    height: 55px;
+  }
+  .group_scroll {
+    margin-left: 205px;
+    margin-top: 34px;
+  }
+  .scroll_group {
+    width: 450px;
+    height: 53px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer_2 {
+    width: 898px;
+    height: 175px;
+    margin-left: 234px;
+    margin-top: 192px;
+    margin-bottom: 50px;
+  }
+}

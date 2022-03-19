@@ -1,0 +1,272 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.checkout {
+  width: 332px;
+  height: 94px;
+  margin-left: 20px;
+  margin-top: 36px;
+}
+.payment {
+  width: 61px;
+  height: 18px;
+  margin-left: 21px;
+  margin-top: 21px;
+}
+.card {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 21px;
+}
+.khung {
+  width: 47px;
+  height: 30px;
+  position: relative;
+}
+.momo {
+  width: 22px;
+  height: 21px;
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 5px;
+}
+.card_img {
+  width: 47px;
+  height: 30px;
+}
+.title {
+  width: 118px;
+  height: 22px;
+  margin-left: 22px;
+}
+#visa {
+  width: 177px;
+  height: 22px;
+}
+#pay {
+  width: 135px;
+}
+
+:focus {
+  outline: none;
+}
+
+.col-3 {
+  float: left;
+  width: 104px;
+  margin-top: 34px;
+  margin-left: 249px;
+  position: relative;
+} /* necessary to give position: relative to parent. */
+input[type="text"] {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "Helvetica Neue";
+  color: var(--text-color);
+  opacity: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  background-color: #011501;
+}
+
+.effect-1 {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 2px solid #707070;
+}
+
+.effect-1 ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3399ff;
+  transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+}
+.total {
+  width: 43px;
+  height: 27px;
+  margin-left: 310px;
+  margin-top: 44px;
+}
+.total_price {
+  width: 89px;
+  height: 55px;
+  margin-left: 264px;
+}
+.button {
+  display: flex;
+  margin-left: 21px;
+  margin-top: 39px;
+  margin-bottom: 36px;
+}
+.continue {
+  width: 98px;
+  height: 16px;
+  margin-left: 12px;
+}
+.check {
+  width: 125px;
+  height: 21px;
+  margin-left: 89px;
+  margin-top: 5px;
+}
+/* .thank {
+  width: 305px;
+  height: 52px;
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-bottom: 36px;
+} */
+::-webkit-input-placeholder {
+  text-align: right;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+  .price {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+  .checkout {
+    width: 443px;
+    height: 126px;
+    margin-left: 323px;
+    margin-top: 50px;
+    margin-right: 100%;
+  }
+  .payment {
+    width: 92px;
+    height: 33px;
+    margin-left: 324px;
+  }
+  .price {
+    width: 52px;
+    height: 33px;
+    margin-left: 544px;
+  }
+  .card {
+    margin-left: 324px;
+    margin-top: 34px;
+  }
+  .card_img {
+    width: 74px;
+    height: 47px;
+  }
+  .khung {
+    width: 74px;
+    height: 47px;
+  }
+  .momo {
+    width: 35px;
+    height: 33px;
+    margin-left: -54px;
+  }
+  .col-3 {
+    width: 168px;
+    margin-left: 875px;
+  }
+  .group_total {
+    width: 89px;
+    text-align: right;
+    margin-left: 935px;
+    margin-top: 90px;
+  }
+  .total {
+    width: 43px;
+    height: 27px;
+    margin: 0;
+  }
+  .total_price {
+    width: 89px;
+    height: 55px;
+    margin: 0;
+  }
+  .button {
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+  #email_visit {
+    margin-left: 323px;
+  }
+  .check {
+    margin-left: 500px;
+  }
+  .thank {
+    display: none;
+  }
+  .br {
+    padding-bottom: 100px;
+  }
+}

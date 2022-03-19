@@ -1,0 +1,317 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 21px;
+  margin-top: 3px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-left: 7px;
+}
+.tropical {
+  width: 334px;
+  height: 71px;
+  margin-left: 19px;
+  margin-top: 10px;
+}
+.img_1 {
+  width: 303px;
+  height: 316px;
+  margin-left: 36px;
+  margin-top: 18px;
+}
+.plant_info {
+  width: 130px;
+  height: 22px;
+  margin-left: 22px;
+  margin-top: 30px;
+}
+.plant_content {
+  width: 332px;
+  font-size: 12px;
+  font-family: "Avenir";
+  font-weight: lighter;
+  color: var(--text-color);
+  margin-left: 21px;
+  margin-top: 24px;
+}
+.tips_content {
+  width: 306px;
+  font-size: 12px;
+  font-family: "Avenir";
+  font-weight: lighter;
+  color: var(--text-color);
+  margin-left: 21px;
+  margin-top: 24px;
+}
+.tips {
+  margin-top: 23px;
+  width: 107px;
+  height: 22px;
+  margin-left: 22px;
+}
+
+.size {
+  margin-top: 15px;
+}
+.size_s,
+.size_m {
+  width: 23px;
+  height: 23px;
+}
+.size_s {
+  margin-left: 21px;
+}
+.size_m {
+  margin-left: 24px;
+}
+.minus {
+  width: 12.83px;
+  height: 2.74px;
+  margin-left: 22.14px;
+  margin-top: 60px;
+}
+.number {
+  width: 11px;
+  height: 24px;
+  margin-left: 12.26px;
+  margin-top: 50px;
+}
+.plus {
+  width: 11.36px;
+  height: 11.36px;
+  margin-left: 12.26px;
+  margin-top: 56px;
+}
+.total_card {
+  display: flex;
+}
+.total_price {
+  margin-left: 178px;
+}
+.price {
+  width: 71px;
+  height: 55px;
+  margin-top: 29px;
+}
+.add_to_cart {
+  width: 74px;
+  height: 17px;
+}
+#cart_visit {
+  margin-top: -5px;
+  margin-left: -35px;
+}
+.review {
+  width: 74px;
+  height: 30px;
+  margin-left: 21px;
+}
+.avt {
+  margin-top: 22px;
+  width: 45px;
+  margin-left: 21px;
+}
+.elipse {
+  position: relative;
+  width: 40px;
+  height: 41px;
+}
+.person {
+  position: absolute;
+  width: 16px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: -27px;
+}
+.rate_card {
+  display: flex;
+}
+.rate_group {
+  margin-top: 21px;
+  margin-left: 17px;
+}
+.rate_name {
+  width: 104px;
+  height: 25px;
+}
+.rate_star {
+  margin-top: -10px;
+}
+.star {
+  width: 11px;
+  height: 10.5px;
+}
+.rate_date {
+  width: 89px;
+  height: 16px;
+}
+.coment {
+  width: 332px;
+  height: 64px;
+  margin-left: 21px;
+}
+.group_img {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.img_2 {
+  width: 104px;
+  height: 104px;
+  margin-left: 11px;
+}
+#chikien {
+  margin-top: 78px;
+}
+#thanhhue {
+  width: 174px;
+  height: 25px;
+}
+.footer {
+  width: 286px;
+  height: 255px;
+  margin-left: 21px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_title {
+    margin-left: 44px;
+    margin-top: 24px;
+  }
+  .nav_selection {
+    width: 37.09px;
+    height: 20.73px;
+    margin-right: 56.91px;
+    margin-top: 24.18px;
+  }
+  .tropical {
+    width: 591px;
+    height: 126px;
+    margin-top: 50px;
+    margin-left: 323px;
+    margin-right: 200px;
+  }
+  .img_1 {
+    width: 317px;
+    height: 331px;
+    margin-top: 43px;
+    margin-left: 331px;
+  }
+  .plant_info {
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    margin-left: 35px;
+  }
+  .plant_content {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 691px;
+  }
+  .tips {
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 40px;
+    width: 174px;
+    height: 36px;
+  }
+  .tips_content {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 691px;
+    height: 112px;
+  }
+  .size {
+    margin-top: -40px;
+    margin-left: 670px;
+  }
+  .amount {
+    margin-left: 671px;
+  }
+  .review {
+    width: 87px;
+    height: 36px;
+    margin-top: 100px;
+    margin-left: 323px;
+  }
+  .luuphung {
+    margin-left: 302px;
+  }
+  .chikien_comment {
+    margin-left: 680px;
+    margin-top: -330px;
+  }
+  .thanhhue_comment {
+    margin-left: 302px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer_2 {
+    width: 898px;
+    height: 175px;
+    margin-left: 234px;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}

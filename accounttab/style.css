@@ -1,0 +1,211 @@
+:root {
+  --text-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background-color: #011501;
+}
+.header {
+  height: 71px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.nav_selection {
+  width: 19.9px;
+  height: 11.2px;
+  margin-top: 29.78px;
+  margin-right: 22.5px;
+}
+.title_card {
+  display: flex;
+}
+.title {
+  width: 147px;
+  height: 52px;
+  margin-left: 21px;
+  margin-top: 24px;
+}
+.avt {
+  width: 47px;
+  height: 47px;
+  margin-left: 138px;
+  margin-top: 27px;
+}
+.name_card {
+  display: flex;
+  position: relative;
+}
+.name_title {
+  width: 53px;
+  height: 15px;
+  margin-top: 34px;
+  margin-left: 21px;
+}
+.name_full {
+  width: 82px;
+  height: 15px;
+  margin-left: 83px;
+  margin-top: 32px;
+}
+.line {
+  position: absolute;
+  width: 218px;
+  margin-left: 21px;
+  margin-top: 5px;
+}
+.visit {
+  display: flex;
+  margin-top: 10px;
+}
+.visit_icon {
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  margin-left: 6px;
+}
+.visit_content {
+  color: var(--text-color);
+  font-size: 10px;
+  font-family: "Avenir Black";
+  font-weight: 600;
+  margin-left: 7px;
+}
+.group_card {
+  display: flex;
+}
+.pass_title {
+  width: 78px;
+  height: 15px;
+  margin-left: 21px;
+  margin-top: 40px;
+}
+.pass_full {
+  width: 42px;
+  height: 12px;
+  margin-top: 45px;
+  margin-left: 98px;
+}
+#pass_visit {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.email_title {
+  width: 54px;
+  height: 15px;
+  margin-left: 21px;
+  margin-top: 40px;
+}
+.email_full {
+  width: 98px;
+  height: 15px;
+  margin-top: 40px;
+  margin-left: 66px;
+}
+#email_visit {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.order_title {
+  color: var(--text-color);
+  font-size: 10px;
+  font-family: "Avenir Black";
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 21px;
+}
+#order_visit {
+  margin-left: 163px;
+  margin-top: 40px;
+}
+#line {
+  width: 300px;
+  margin-top: 5px;
+}
+.footer {
+  position: relative;
+  margin-top: 227px;
+  height: 200px;
+  overflow: hidden;
+}
+.info {
+  position: relative;
+  width: 330px;
+  margin-top: 10px;
+  margin-left: 21px;
+}
+.footer_img {
+  position: absolute;
+  width: 509px;
+  height: 340px;
+  margin-left: -417px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 400px) {
+  .footer_2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_title {
+    margin-left: 44px;
+    margin-top: 24px;
+  }
+  .nav_selection {
+    width: 37.09px;
+    height: 20.73px;
+    margin-right: 56.91px;
+    margin-top: 24.18px;
+  }
+  .title_card {
+    margin-left: 323px;
+    margin-top: 100px;
+  }
+  .avt {
+    margin-left: 158px;
+  }
+  #full_name,
+  .group_card {
+    margin-left: 323px;
+  }
+  .line {
+    margin-left: 325px;
+  }
+  .name_title,
+  .email_title,
+  .pass_title,
+  .order_title {
+    margin-left: 0;
+  }
+
+  .footer {
+    overflow: initial;
+    margin-top: -270px;
+    margin-left: 718px;
+  }
+}
